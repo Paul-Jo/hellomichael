@@ -1,285 +1,217 @@
 <?php 
-	$loadModule = 'home'; 
-	$meta_title = 'Michael Ngo | Front-end developer by day, UX designer by night';
-	include_once('header.php');
+  $meta = "Front-end Developer based out of Sydney, Australia and Vancouver, Canada.";
 ?>
 
-<body class="home <?php if($detect->isMobile()) {echo 'mobile';} ?>">
-	<?php include_once('navigation.php');?>	
+<?php include_once('includes/header.php');?>
+<?php include_once('includes/menu.php');?>
 
-	<div id="main">
-		<div class="wrapper" data-start="modules/home" data-title="<?php echo $meta_title;?>">
-			<a target="_blank" class="awwwards" href="http://www.awwwards.com/best-websites/hellomichael?subsection=all">awwwards</a>
+<div class="menu__wrapper">
+  <div id="skrollr-body">
+    <?php include_once('includes/hello.php');?>
+    
+    <a href="#" class="menu__toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
 
-			<?php if(!$detect->isMobile()):?>
-		 		<div class="feature">
-				  	<video id="video" autoplay loop width="0">
-				  		<source src="video/portrait.webm" type="video/webm">
-				    	<source src="video/portrait.mp4" type="video/mp4">
-				  	</video>
-			  	</div>
-		  	<?php endif;?>
+    <a target="_blank" class="sprite sprite--awwwards" href="http://www.awwwards.com/best-websites/hellomichael?subsection=all">&nbsp;</a>
 
-	 	  	<div class="content">
-			  	<div class="modal">
-			  		<div class="video-wrapper">
-			  			<div class="iframe"></div>
-			  			<button class="flat">Close</button>
-			  		</div>
-			  	</div>
+    <div id="content" data-start="modules/index">
+      <div class="hello__hand hello__hand--left">
+        <img src="img/hand-left.png" alt="Left hand"/>
+      </div>
 
-				<div class="container">
-					<?php if(!$detect->isMobile()):?>
-			 			<img class="leftHand moveHand" src="img/lefthand.png" alt="hand"/>
-			 			<img class="rightHand moveHand" src="img/righthand.png" alt="hand"/>
-		 			<?php endif;?>
+      <div class="hello__hand hello__hand--right">
+        <img src="img/hand-right.png" alt="Right hand"/>
+      </div>
 
-		 			<section id="about" class="row">
-		 				<h1 class="heading">
-		 					<span>Michael Ngo</span>
-		 					
-			 				<span class="subtitle byline">Front-End Developer by Day, Ux Designer by Night</span>
-							<span class="subtitle">Perfecting the web one pixel at a time</span>
-		 				</h1>
+      <!-- About Begin -->
+      <section id="about" class="section section--about">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">      
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="heading">
+                    <h1 class="heading__title">Michael Ngo</h1>
+                    <h6 class="heading__subtitle subtitle">
+                      Front-End Developer | Vancouver, Sydney <br/> Perfecting the web one pixel at a time
+                    </h6>
+                  </div>
+                </div>
 
-		 				<div class="eleven columns">
-							<p>Though I am a front-end developer by day, I have put pen to paper during a design process, been completely lost in a full stack environment, and have even worn the entrepreneurship hat.</p>
+                <div class="col-xs-12 col-lg-4 col-lg-push-8 col-xl-3 col-xl-push-9">
+                  <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-sm-push-2 col-lg-push-0 col-lg-12 text-xs-right">
+                      <a class="ajax menu__link menu__link--alt" href="resume">
+                        <svg class="menu__icon"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                        <path fill="#FCFCFC" d="M30.25,13.417V4.333L8.917,4.28L8.75,4.375V44H39.5l0.417-30.75"/>
+                        <path fill="#CC3333" d="M31.075,2.817H7.265v42.367h33.469V12.017L31.075,2.817z M31.837,7.053l4.448,4.237h-4.448V7.053z
+                           M9.807,42.641V5.36h19.488v8.473h8.896v28.808H9.807L9.807,42.641z"/>
+                        </svg>
 
-							<p>I am an alumnus of <a target="_blank" href="http://www.sfu.ca/siat.html">SFU's School of Interactive Arts + Technology</a> program, graduating with a Bachelors of Science with a major in Media Arts. Currently residing in Vancouver, B.C, Canada, I'm looking to grow professionally and personally anywhere outside of the country.</p>
+                        <h4 class="menu__title">Resume</h4>
+                        <h6 class="menu__subtitle">View Resume</h6>
+                      </a>
+                    </div>
 
-							<p>I want to be involved in projects that I can be proud of, join an amazing team, and advance my design and development career. Take some time to look at my work, credentials, and if you're interested in helping me make this happen, <a class="ajax scroll" target="_blank" href="?section=contact">let's get in touch</a>.</p>
-						</div>
+                    <div class="col-xs-6 col-sm-4 col-sm-push-2 col-lg-push-0 col-lg-12">
+                      <a class="menu__link menu__link--alt" target="_blank" href="https://github.com/hellomichael">
+                        <svg class="menu__icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="#C33"><path d="M22.583 44.02c.29-1.812.232-8.262.207-10.293l-.027-2.117-1.83 1.064c-.157.09-1.538.96-1.538 3.293 0 .336-.02 5.76-.02 6.503 0 .22-.18.45-.444.657.16-.346.26-.74.26-1.197 0-1.382-.03-4.938-.03-4.938l-.012-1.445-1.428.236c-.01.003-1.033.17-2.47.17-2.733 0-3.828-1.307-4.53-2.8.61.697 1.297 1.304 2.2 1.585.718.223 1.537.34 2.372.34 1.39 0 2.683-.314 3.546-.863l.506-.32.062-.598c.087-.857.738-1.727 1.387-2.258.555-.146 2.62-.39 4.835-.39 2.045 0 2.973.223 3.177.34 1.23.764 1.825 1.566 1.825 5.563 0 2.398-.02 3.54-.033 4.27-.01.498-.016.812-.01 1.19.006.453.12.853.294 1.204-.488-.407-.51-.865-.5-1.033l.007-.14-.08-5.33c.042-.682.05-2.574-.83-3.505-.353-.374-.823-.58-1.32-.58H26.92v9.96c0 .54.084 1.008.213 1.41-.685-.705-.648-2.697-.623-4.154l.008-.417c.027-1.848-.016-5.768-.018-5.934l-.014-1.248-3.287.067.044 1.255c.15 4.1.076 9.05-.303 9.898-.093.203-.217.386-.357.55z"/><path d="M7.204 28.86c-.21 0-.43.022-.663.064-.757.14-.605.632.05 1.05 1.07.68 2.074 1.53 2.85 3.342.596 1.39 1.85 3.873 5.81 3.873 1.572 0 2.675-.188 2.675-.188s.03 3.548.03 4.927c0 1.59-2.187 2.038-2.187 2.804 0 .3.724.33 1.305.33 1.15 0 3.538-.94 3.538-2.595 0-1.314.022-5.73.022-6.504 0-1.69.922-2.225.922-2.225s.113 9.017-.22 10.228c-.392 1.422-1.1 1.22-1.1 1.854 0 .275.248.41.62.41.9 0 2.534-.783 3.21-2.25.737-1.608.414-10.456.414-10.456l.786-.018s.045 4.05.018 5.902c-.026 1.916-.16 4.34.998 5.484.54.534 1.938 1.353 2.706 1.353.313 0 .522-.138.522-.487 0-.7-1.352-1.275-1.352-3.17v-8.724c1.08 0 .917 2.867.917 2.867l.08 5.33s-.24 1.94 2.138 2.754c.41.14 1.044.23 1.6.23.58 0 1.07-.1 1.115-.348.085-.486-2.16-1.208-2.18-2.71-.013-.918.042-1.453.042-5.44s-.546-5.457-2.443-6.632c-.645-.37-2.165-.507-3.797-.507-2.33 0-4.888.277-5.438.53-.852.636-1.874 1.837-2.014 3.23-.667.422-1.755.67-2.884.67-.68 0-1.378-.09-2.006-.285-2.187-.676-3.114-4.694-6.082-4.694z"/></g><path class="head" fill="#FFF" stroke="#C33" stroke-width="2.472" d="M29.424 29.592c5.855-.59 9.48-2.016 11.248-5.828.137 0 .72-1.78.644-1.78.396-1.44.61-3.144.65-5.16-.01-5.47-2.67-7.403-3.183-8.31.754-4.142-.127-6.026-.535-6.672-1.51-.527-5.252 1.358-7.295 2.686-3.33-.958-10.374-.865-13.015.247-4.872-3.428-7.45-2.905-7.45-2.905s-1.667 2.936-.44 7.23c-1.603 2.01-2.8 3.43-2.8 7.195.002 2.123.257 4.02.83 5.68-.07 0 .768 1.776.792 1.776 1.832 3.27 5.362 5.302 11.32 5.865l9.234-.023z"/></svg>
+                      
+                        <h4 class="menu__title">Github</h4>
+                        <h6 class="menu__subtitle">View Repository</h6>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                  
+                <div class="col-xs-12 col-lg-8 col-lg-pull-4 col-xl-9 col-xl-pull-3">
+                  <p>Though I am a front-end developer by day, I have put pen to paper during the design process, been completely lost in a full stack environment and have even worn the entrepreneurship hat.</p>
 
-						<div class="five columns resume">
-							<a class="ajax" href="resume">
-								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-									 width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
-								<polygon fill="#FCFCFC" points="8.75,4.375 8.75,44 39.5,44 39.5,12.875 30.781,4.281 "/>
-								<path fill="#C33"  d="M31.075,2.817H7.266v42.367h33.468V12.017L31.075,2.817z M31.837,7.053l4.448,4.237h-4.448V7.053z M9.808,42.641V5.36
-									h19.487v8.473h8.896v28.808H9.808z"/>
-								</svg>
+                  <p>I am an alumnus of <a target="_blank" href="http://www.sfu.ca/siat.html">SFU's School of Interactive Arts + Technology</a> program, graduating with a Bachelors of Science with a major in Media Arts. Originally from Vancouver, Canada but now residing in Sydney, Australia, I'm looking to grow personally and professionally anywhere in the world.</p>
 
-								<h4>Resume</h4>
-								<span class="subtitle">View Profile</span>
-							</a>
+                  <p class="m-b-0">I want to be involved in projects that I can be proud of, join an amazing team and advance my development career. Take some time to look at my work, credentials and if you're interested in helping me make this happen, <a class="scroll" target="_blank" href="?section=contact">let's get in touch</a>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About End -->
 
-							<a target="_blank" href="https://github.com/hellomichael">
-								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-									 width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
-								<g>
-									<g>
-										<path fill="#C33" d="M22.583,44.019c0.289-1.811,0.232-8.261,0.207-10.292l-0.027-2.117l-1.83,1.064c-0.157,0.09-1.538,0.959-1.538,3.293
-											c0,0.336-0.021,5.76-0.021,6.503c0,0.22-0.179,0.45-0.443,0.657c0.16-0.346,0.259-0.74,0.259-1.197
-											c0-1.382-0.029-4.938-0.029-4.938l-0.013-1.445l-1.428,0.236c-0.011,0.003-1.033,0.17-2.469,0.17c-2.734,0-3.829-1.307-4.53-2.8
-											c0.61,0.697,1.296,1.304,2.199,1.585c0.718,0.223,1.537,0.34,2.372,0.34c1.39,0,2.683-0.314,3.546-0.863l0.506-0.32l0.062-0.598
-											c0.087-0.857,0.738-1.727,1.387-2.258c0.555-0.145,2.62-0.39,4.835-0.39c2.045,0,2.973,0.224,3.177,0.341
-											c1.231,0.764,1.825,1.566,1.825,5.563c0,2.398-0.021,3.541-0.033,4.271c-0.01,0.497-0.016,0.811-0.01,1.188
-											c0.006,0.454,0.119,0.854,0.294,1.205c-0.489-0.407-0.512-0.865-0.5-1.033l0.006-0.139l-0.079-5.331
-											c0.041-0.682,0.048-2.574-0.83-3.505c-0.354-0.373-0.824-0.579-1.322-0.579h-1.236v9.96c0,0.541,0.084,1.008,0.213,1.41
-											c-0.685-0.705-0.648-2.697-0.623-4.154l0.008-0.417c0.027-1.847-0.016-5.767-0.018-5.933l-0.014-1.248l-3.287,0.067l0.045,1.255
-											c0.149,4.101,0.076,9.051-0.303,9.898C22.847,43.671,22.723,43.854,22.583,44.019L22.583,44.019z"/>
-										<path fill="#C33" d="M7.204,28.861c-0.21,0-0.431,0.021-0.663,0.063c-0.758,0.14-0.606,0.632,0.049,1.05c1.07,0.681,2.074,1.53,2.85,3.342
-											c0.596,1.389,1.849,3.873,5.811,3.873c1.571,0,2.674-0.187,2.674-0.187s0.029,3.548,0.029,4.927c0,1.592-2.186,2.039-2.186,2.805
-											c0,0.301,0.724,0.331,1.305,0.331c1.149,0,3.538-0.942,3.538-2.596c0-1.313,0.021-5.728,0.021-6.503
-											c0-1.689,0.922-2.225,0.922-2.225s0.113,9.016-0.22,10.227c-0.392,1.422-1.1,1.219-1.1,1.854c0,0.275,0.248,0.41,0.619,0.41
-											c0.901,0,2.535-0.783,3.211-2.25c0.737-1.608,0.414-10.456,0.414-10.456l0.786-0.018c0,0,0.045,4.05,0.018,5.902
-											c-0.026,1.916-0.16,4.341,0.998,5.484c0.54,0.534,1.938,1.353,2.706,1.353c0.313,0,0.522-0.138,0.522-0.487
-											c0-0.7-1.352-1.275-1.352-3.171v-8.723c1.08,0,0.917,2.867,0.917,2.867l0.079,5.33c0,0-0.238,1.941,2.139,2.754
-											c0.408,0.141,1.043,0.23,1.598,0.23c0.582,0,1.072-0.1,1.116-0.348c0.085-0.485-2.159-1.207-2.18-2.709
-											c-0.013-0.918,0.042-1.453,0.042-5.439s-0.546-5.458-2.443-6.633c-0.645-0.371-2.165-0.507-3.797-0.507
-											c-2.331,0-4.888,0.276-5.438,0.53c-0.851,0.635-1.873,1.836-2.013,3.228c-0.667,0.423-1.755,0.671-2.884,0.671
-											c-0.681,0-1.378-0.09-2.006-0.285C11.099,32.879,10.172,28.861,7.204,28.861L7.204,28.861z"/>
-									</g>
-									<path class="head" fill="#FFFFFF" stroke="#C33" stroke-width="2.4722" d="M29.424,29.592c5.855-0.591,9.481-2.016,11.248-5.828
-										c0.137,0.001,0.72-1.781,0.644-1.781c0.396-1.439,0.611-3.143,0.651-5.16c-0.01-5.468-2.672-7.402-3.184-8.31
-										c0.754-4.141-0.127-6.025-0.535-6.671c-1.51-0.527-5.252,1.358-7.295,2.686c-3.33-0.958-10.374-0.865-13.015,0.247
-										c-4.872-3.428-7.451-2.905-7.451-2.905s-1.666,2.936-0.44,7.23c-1.602,2.009-2.798,3.429-2.798,7.195
-										c0.001,2.123,0.256,4.021,0.829,5.68c-0.07,0,0.768,1.776,0.792,1.776c1.832,3.268,5.362,5.301,11.32,5.864L29.424,29.592z"/>
-								</g>
-								</svg>
+      <!-- Work Begin -->
+      <section id="work" class="section section--work">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">   
+              <div class="heading p-t-0">
+                <h1 class="heading__title">Work</h1>
+                <h6 class="heading__subtitle">
+                  A showcase of design, <br class="hidden-xs-down"/>
+                  development and experiments
+                </h6>
+              </div>
+              
+              <div class="section__row row row-thin">
+                <div class="col-xs-12 col-sm-8">
+                  <?php include_once('includes/web-directions/project.php');?>
+                </div>
 
-								<h4>Github</h4>
-								<span class="subtitle">View Repositories</span>
-							</a>
-						</div>
-					</section>	
+                <div class="col-xs-12 col-sm-4">
+                  <?php include_once('includes/keno/project.php');?>
+                </div>
+              </div>
 
-					<section id="work">
-						<h1 class="heading">
-							<span>Work</span>
-							<span class="subtitle">A showcase of design,</span>
-							<span class="subtitle">development, experiments and more</span>
-						</h1>
+              <div class="section__row row row-thin">
+                <div class="col-xs-12 col-sm-4">
+                  <?php include_once('includes/business-events-sydney/project.php');?>
+                </div>
 
-			 			<ul class="projects row">
-							<li class="two-thirds column project foodsters">
-								<a class="ajax" href="foodsters">
-	 								<div class="info">
-										<div class="background"></div>
+                <div class="col-xs-12 col-sm-8">
+                  <?php include_once('includes/foodsters/project.php');?>
+                </div>
+              </div>
 
-										<div class="description">
-											<h4>Foodsters Restaurant Delivery</h4>
-											<span class="snippet">Foodsters is a "clicks to bricks" startup offering Vancouver the best in restaurant delivery.</span>
-											<span class="link">View Case Study</span>
-										</div>
-									</div>
+              <div class="section__row row row-thin">
+                <div class="col-xs-12 col-sm-4">
+                  <?php include_once('includes/big-head-mode/project.php');?>
+                </div>
 
-									<img src="img/projects/foodsters.jpg" alt="Foodsters Restaurant Delivery"/>
-								</a>
-							</li>
+                <div class="col-xs-12 col-sm-4">
+                  <?php include_once('includes/this-is-neat/project.php');?>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4">
+                  <?php include_once('includes/the-sockeye/project.php');?>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Work End -->
 
-							<li class="one-third column project asr">
-								<a class="ajax" href="asr">
-									<div class="info">
-										<div class="background"></div>
+      <!-- Contact Begin -->
+      <section id="contact" class="section section--contact p-t-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">   
+              <div class="heading">
+                <h1 class="heading__title">Contact</h1>
+                <h6 class="heading__subtitle">
+                  Currently available for contract or full-time work, <br class="hidden-xs-down"/>
+                  and would love to hear from you
+                </h6>
+              </div>
+              
+              <div class="row">
+                <div class="col-xs-12 col-sm-5 col-md-4">
+                  <small class="contact">
+                    michael@hellomichael.com<br/>
+                    +61 435 124 204 <br/>
+                    Sydney NSW, Australia / Vancouver B.C, Canada<br/>
+                    <a target="_blank" href="http://ca.linkedin.com/in/hellomichael/">LinkedIn</a> / <a target="_blank" href="https://www.facebook.com/hello.michael.ngo">Facebook</a> / <a target="_blank" href="https://twitter.com/hellomichaelngo">Twitter</a> / <a target="_blank" href="https://instagram.com/hellomichaelngo">Instagram</a>
+                  </small>
+                </div>
 
-										<div class="description">
-											<h4>Art School Reviews</h4>
-											<span class="snippet">Art School Reviews is an online review aggregator for post-secondary creative institutions.</span>
-											<span class="link">View Project</span>
-										</div>
-									</div>
+                <div class="col-xs-12 col-sm-7 col-md-8">
+                  <form id="contact-form" class="form" method="post" action="includes/mailer">
+                    <input type="text" name="foo" style="display: none;">
+                    
+                    <div class="form__control">
+                      <input class="form__input" type="text" id="name" name="name" placeholder="Your name">
 
-									<img src="img/projects/asr.jpg" alt="Art School Reviews"/>
-								</a>
-							</li>
+                      <label class="form__label" for="name">
+                        <svg class="form__icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><g fill="#FFF"><path d="M8.518 11.45h.146c-.04-.032-.08-.065-.114-.1-1.157-1.043-2.038-3.074-2.038-4.714 0-2.322 1.9-3.848 3.697-3.848 1.795 0 3.6 1.65 3.6 3.972 0 1.64-.976 3.608-2.187 4.616.248.947 1.607 1.257 4.41 2.025 3.113.854 2.575 2.97 2.566 4.388H1.8c-.01-1.418-.78-3.534 2.332-4.387 2.725-.75 4.082-1.062 4.386-1.95z"/><path d="M8.663 11.45h-.145l.03-.1c.035.038.075.068.115.1z"/></g></svg>
+                      </label>  
+                    </div>
 
-							<li class="one-third column project bjjstack">
-								<a class="ajax" href="bjjstack">
-									<div class="info">
-										<div class="background"></div>
+                    <div class="form__control">          
+                      <input class="form__input" type="text" id="email" name="email" placeholder="Your email">   
+                      
+                      <label class="form__label" for="email">
+                        <svg class="form__icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><g fill="#FFF"><path d="M10.267 12.27c-.093.094-.22.145-.352.145s-.26-.055-.355-.145L3.048 5.755C3.028 5.835 3 5.912 3 6v8c0 .552.447 1 1 1h12c.554 0 1-.447 1-1V6c0-.138-.023-.27-.076-.387l-6.657 6.657z"/><path d="M9.915 11.208l6.187-6.188c-.038-.003-.065-.02-.1-.02H4c-.086 0-.164.03-.245.048l6.16 6.16z"/></g></svg>
+                      </label>
+                    </div>
 
-										<div class="description">
-											<h4>BjjStack</h4>
-											<span class="snippet">BJJStack is an online community bringing you the latest in jiu-jitsu reviews, media, and more.</span>
-											<span class="link">View Project</span>
-										</div>
-									</div>
+                    <div class="form__control">
+                      <textarea class="form__textarea" id="message" name="message" placeholder="Your message"></textarea>
 
-									<img src="img/projects/bjjstack.jpg" alt="BjjStack"/>
-								</a>
-							</li>
+                      <label class="form__label" for="message">
+                        <svg class="form__icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><g fill="#FFF"><path d="M2.99 17l4.18-1.124-3.06-3.057M15.043 8.02l-7.497 7.498-3.073-3.072 7.497-7.5zM15.653 3.46c-.61-.613-1.57-.613-2.182 0L12.33 4.6l3.08 3.08 1.143-1.142c.61-.61.61-1.57 0-2.182l-.897-.897z"/></g></svg>
+                      </label>
+                    </div>
 
-							<li class="two-thirds column project bhm">
-								<a class="ajax" href="bigheadmode">
-									<div class="info">
-										<div class="background"></div>
+                    <div class="row row-xs-center">
+                      <div class="col-xs-7 col-md-9">
+                        <small class="form__error"></small>
+                      </div>
 
-										<div class="description">
-											<h4>Big Head Mode</h4>
-											<span class="snippet">Big Head Mode is a papercraft homage to the easter-egg setting found in our favorite childhood video games.</span>
-											<span class="link">View Project</span>
-										</div>
-									</div>
+                      <div class="col-xs-5 col-md-3">
+                        <button class="form__submit pull-xs-right" type="submit">Submit</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact End -->
+    </div>
 
-									<img src="img/projects/bighead.jpg" alt="Big Head Mode"/>
-								</a>
-							</li>
 
-							<li class="one-third column project conductive_thread">
-								<a class="ajax" href="conductivethread">
-									<div class="info">
-										<div class="background"></div>
+    <div class="hello__feet" data-1600-end="top: -500px" data-700-end="top: 0" >
+      <!-- Add height from head of skrollr -->
+      <img src="img/feet.jpg" alt="Michael Ngo's Feet"/>
+    </div>
+  </div>
+</div>
 
-										<div class="description">
-											<h4>ConductiveThread.ca</h4>
-											<span class="snippet">ConductiveThread.ca keeps the electronic DIY community stocked with their favorite thread.</span>
-											<span class="link">View Project</span>
-										</div>
-									</div>
+<div class="menu__wrapper--clone"></div>
 
-									<img src="img/projects/conductive_thread.jpg" alt="Conductive Thread"/>
-								</a>
-							</li>
-
-							<li class="one-third column project icbc">
-								<a class="video" target="_blank" href="http://vimeo.com/22231899" data-video="22231899">
-									<div class="info">
-										<div class="background"></div>
-
-										<div class="description">
-											<h4>A Memory Still</h4>
-											<span class="snippet">An award winning animated feature for ICBC's 180 Video Contest.</span>
-											<span class="link">Watch Video</span>
-										</div>
-									</div>
-
-									<img src="img/projects/icbc.jpg" alt="ICBC"/>
-								</a>
-							</li>
-
-							<li class="one-third column project sockeye">
-								<a class="video" target="_blank" href="http://vimeo.com/27933300" data-video="27933300">
-									<div class="info">
-										<div class="background"></div>
-
-										<div class="description">
-											<h4>The Sockeye</h4>
-											<span class="snippet">A film tribute to my father, a practicing fisherman for over 2 decades.</span>
-											<span class="link">Watch Video</span>
-										</div>
-									</div>
-
-									<img src="img/projects/sockeye.jpg" alt="the Sockeye"/>
-								</a>
-							</li>
-						</ul>
-					</section>	
-
-					<section id="contact" class="row clearfix">
-						<h1 class="heading">
-							<span>Contact</span>
-							<span class="subtitle">Currently available for hire</span>
-							<span class="subtitle">and would love to hear from you</span>
-						</h1>
-
-						<div class="one-third column info">
-							<h4>Michael Ngo</h4>
-							<p>
-								michael@hellomichael.com<br/>
-								778.883.9631<br/>
-								Vancouver, B.C, Canada<br/>
-
-								<a target="_blank" href="http://ca.linkedin.com/in/hellomichael/">LinkedIn</a> / <a target="_blank" href="https://www.facebook.com/hello.michael.ngo">Facebook</a> / <a target="_blank" rel="author" href="https://plus.google.com/114848968741255018590">Google +</a>
-							</p>
-						</div>
-
-						<div class="two-thirds column">
-							<form id="contact-form" method="post" action="scripts/mailer">
-								<input type="text" name="foo" style="display: none;"/>
-
-								<div class="input">							
-									<label class="name" for="name">Your Name</label>	
-									<input type="text" id="name" name="name" placeholder="Your Name"/>
-								</div>
-
-								<div class="input">
-									<label class="email" for="email">Your Email</label>
-									<input type="text" id="email" name="email" placeholder="Your Email"/>
-								</div>
-
-								<div class="input clearfix">
-									<label class="message" for="message">Your Message</label>
-									<textarea id="message" name="message" placeholder="Your Message"></textarea>
-
-									<button class="flat" type="submit">Submit</button>
-								</div>
-
-								<div class="error">&nbsp;</div>
-							</form>
-						</div>
-					</section>
-				</div>
-			</div>	 
-
-			<?php if(!$detect->isMobile()):?>
-			  	<footer>
-					<img src="img/footer.jpg" alt="footer"/>
-				</footer>
-			<?php endif;?>
-		</div>
-	</div>
-
-	<div class="cover"></div>
-</body>
-</html>
+<?php include_once('includes/footer.php');?>

@@ -215,3 +215,11 @@ pip-log.txt
 .mr.developer.cfg
 
 .sass-cache/
+
+# Image files
+*.psd
+*.ai
+*.pdf
+*.aep
+*.avi
+*.mov
