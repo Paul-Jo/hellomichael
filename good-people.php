@@ -1,4 +1,4 @@
-<?php 
+<?php
   $title      = "Good People";
   $meta       = "You all mean more to me than words can express. I'll still try anyways.";
 ?>
@@ -18,9 +18,9 @@
 
     <div id="content">
       <section class="section section--dark section--good-people">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">   
+            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">
               <div class="heading heading--work">
                 <h1 class="heading__title">Good People</h1>
                 <h6 class="heading__subtitle">
@@ -28,7 +28,7 @@
                 </h6>
               </div>
 
-              <ul>          
+              <ul>
                 <li><strong>Dad</strong> for being a rebel.</li>
                 <li><strong>Mom</strong> for the unconditional love and support.</li>
                 <li><strong>Duc</strong> for showing me what it is to be a man.</li>

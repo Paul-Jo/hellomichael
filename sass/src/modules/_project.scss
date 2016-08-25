@@ -5,35 +5,45 @@ $module: 'project';
 
 .#{$module} {
   @extend %before;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
 
   // 4:3 Ratio
-  height: 0;
+  height: 33.3vw;
+  max-height: 235px;
   width: 100%;
-  padding-bottom: 33.3%;
   overflow: hidden;
   @include rem(margin, 0 auto $gutter-xs);
 
   @include media-breakpoint-up(sm) {
     .col-sm-8 & {
-      width: 100%;
+      position: absolute;
+      width: calc(100% - #{$gutter-xxs * 2});
       height: 100%;
       padding: 0;
     }
 
     .col-sm-4 & {
-      height: auto;
+      height: 21.5vw;
       width: 100%;
-      padding-bottom: 75%;
       overflow: hidden;
+
+      @include media-breakpoint-up(md) {
+        height: 15.5vw;
+      }
     }
   }
 
   @include media-breakpoint-up(lg) {
     @include rem(margin, 0 0 $gutter-sm);
+
+    .col-sm-8 & {
+      width: calc(100% - #{$gutter-xs * 2});
+    }
   }
 
   @include media-breakpoint-up(xl) {
@@ -106,8 +116,6 @@ $module: 'project';
     left: 50%;
     transform: scale($logo_scale) translateX(-50%/$logo_scale) translateY(-50%/$logo_scale);
     opacity: 1;
-    filter: invert(1);
-    -webkit-filter: invert(1);
 
     @include media-breakpoint-up(sm) {
       $logo_scale: 0.35;
@@ -126,7 +134,7 @@ $module: 'project';
 
     .col-sm-8 & {
       left: 50%;
-        
+
       @include media-breakpoint-up(sm) {
         left: 25%;
       }
@@ -134,11 +142,11 @@ $module: 'project';
   }
 
   &__description {
-    @extend %center;
     opacity: 0;
     width: 100%;
     transition: 500ms opacity $ease-in-out;
     backface-visibility: hidden;
+    z-index: 99999;
 
     @include rem(padding, 0 $gutter-sm);
 

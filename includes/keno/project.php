@@ -1,5 +1,5 @@
 <a href="keno" class="ajax project project--keno" style="background-image: url(includes/keno/thumbnail.jpg);">
-  <img class="project__logo" src="includes/keno/logo.png" alt="Online gambling"/>
+  <img class="project__logo" src="includes/keno/logo-inverse.png" alt="Online gambling"/>
   <span class="project__background"></span>
 
   <div class="project__description">

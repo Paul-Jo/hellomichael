@@ -1,5 +1,5 @@
 <a href="web-directions" class="ajax project project--web-directions" style="background-image: url(includes/web-directions/thumbnail.jpg);">
-  <img class="project__logo" src="includes/web-directions/logo.png" alt="Bond back cleaning Sydney"/>
+  <img class="project__logo" src="includes/web-directions/logo-inverse.png" alt="Bond back cleaning Sydney"/>
   <span class="project__background"></span>
 
   <div class="project__description">

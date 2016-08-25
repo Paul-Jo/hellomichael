@@ -1,5 +1,5 @@
 <a href="big-head-mode" class="ajax project project--big-head-mode" style="background-image: url(includes/big-head-mode/thumbnail.jpg);">
-  <img class="project__logo" src="includes/big-head-mode/logo.png" alt="Papercraft"/>
+  <img class="project__logo" src="includes/big-head-mode/logo-inverse.png" alt="Papercraft"/>
   <span class="project__background"></span>
 
   <div class="project__description">

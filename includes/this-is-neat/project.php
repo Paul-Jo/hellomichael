@@ -1,5 +1,5 @@
 <a href="this-is-neat" class="ajax project project--this-is-neat" style="background-image: url(includes/this-is-neat/thumbnail.jpg);">
-  <img class="project__logo" src="includes/this-is-neat/logo.png" alt="Bond back cleaning Sydney"/>
+  <img class="project__logo" src="includes/this-is-neat/logo-inverse.png" alt="Bond back cleaning Sydney"/>
   <span class="project__background"></span>
 
   <div class="project__description">

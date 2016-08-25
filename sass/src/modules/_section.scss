@@ -68,9 +68,9 @@ $module: 'section';
     @include rem(margin, $gutter-lg 0 0);
   }
 
-  &--brief { 
+  &--brief {
     @include rem(padding, $gutter-xl 0 ($gutter-xl - $gutter-sm));
-    
+
     @include media-breakpoint-up(lg) {
       @include rem(padding, $gutter-xl 0 ($gutter-xl - $gutter-sm));
     }
@@ -98,8 +98,8 @@ $module: 'section';
       &:hover {
         text-decoration: none;
 
-        .arrow { 
-          transform: translate(2px, -2px); 
+        .arrow {
+          transform: translate(2px, -2px);
         }
       }
     }

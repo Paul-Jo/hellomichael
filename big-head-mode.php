@@ -1,9 +1,9 @@
-<?php 
+<?php
   $title  = "Big Head Mode";
   $meta   = "A papercraft homage to the easter-egg setting found in our favorite childhood video games.";
   $work   = array('this-is-neat', 'web-directions', 'keno');
 ?>
-    
+
 <?php include_once('includes/header.php');?>
 <?php include_once('includes/menu.php');?>
 
@@ -16,13 +16,13 @@
       <span></span>
       <span></span>
     </a>
-    
+
     <div id="content" data-start="modules/bigheadmode">
       <img class="section__logo hidden-md-up" src="includes/big-head-mode/logo.png" alt="Big Head Mode logo"/>
-      
+
       <!-- Brief Begin -->
       <section class="section section--brief">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">          
               <div class="row">
@@ -40,12 +40,12 @@
                     <img class="section__logo" src="includes/big-head-mode/logo.png" alt="Big Head Mode logo"/>
                   </div>
                 </div>
-                  
+
                 <div class="col-xs-12 col-lg-8 col-lg-pull-4 col-xl-9 col-xl-pull-3">
                   <p>I grew up on the N64, spending countless hours after school playing Smash Brothers, Mario Tennis and Tony Hawk. But nothing would test the stability of friendships more so than Goldeneye 007. Notorious for it's cheat codes, the game  played inspiration to this 'Big Head Mode' halloween costume.</p>
 
                   <p>Utilizing skills and technologies from multiple disciplines, the project involved creating a 3D replica of my head to generate cutting and folding patterns for construction. Good friend and concept artist <a target="_blank" href="http://emanlandau.com/">Eman Landau</a> provided much of his expertise in helping perfect the final product.</p>
-                  
+
                   <ul class="section__tags">
                     <li class="tag"><span>Papercraft</span></li>
                   </ul>
@@ -59,13 +59,13 @@
 
       <!-- Pepakura Begin -->
       <div class="section section--dark section--big-head-mode">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">               
+            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">
               <div class="row row-sm-center">
                 <div class="col-xs-12 col-sm-4 col-lg-5">
                   <div class="pepakura">
-                    <div class="pepakura__background" 
+                    <div class="pepakura__background"
                       data-0-top="background: !url(includes/big-head-mode/animation/animation0020.gif) no-repeat;  -75px;"
                       data-85-top="background: !url(includes/big-head-mode/animation/animation0020.gif) no-repeat;  -75px;"
                       data-95-top="background: !url(includes/big-head-mode/animation/animation0018.gif) no-repeat;  -71.7px;"
@@ -124,9 +124,9 @@
 
       <!-- Pepakura Begin -->
       <div class="section section--darker section--pepakura">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">          
+            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">
               <div class="row">
                 <div class="col-xs-12 col-xl-5">
                   <p class="m-b-0-xl-up">Utilizing FaceGen Modeller, a 3D replica of my head was generated from front-facing and side-profile images. This model was exported into Maya where the amount of polygons was reduced and the faces retextured. From there, the object was imported into Pepakura Designer which generated unfolded patterns that could fit on letter sized paper. The model was printed on 80 pds glossy stock. It took 3 days to cut, fold, just finishing on time for a Halloween deadline.</p>

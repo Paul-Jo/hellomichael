@@ -1,5 +1,5 @@
 <a target="_blank" href="https://vimeo.com/27933300" class="project project--the-sockeye" style="background-image: url(includes/the-sockeye/thumbnail.jpg);">
-  <img class="project__logo" src="includes/the-sockeye/logo.png" alt="T2i Film"/>
+  <img class="project__logo" src="includes/the-sockeye/logo-inverse.png" alt="T2i Film"/>
   <span class="project__background"></span>
 
   <div class="project__description">

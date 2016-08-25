@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php 
+    <?php
       if (isset($title)) {
         $title .= " | Michael Ngo | Front-end Developer";
       }
@@ -28,11 +28,11 @@
     <link rel="icon" href="favicon.ico">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="sass/styles.min.css">
 
     <!-- Scripts -->
     <script data-main="js/main" src="js/require.js"></script>
-  
+
     <!-- Analytics -->
     <script type="text/javascript">
 

@@ -1,4 +1,4 @@
-<?php 
+<?php
   $title  = "Web Directions";
   $meta   = "People Behind the Pixels is a WebGl title sequence pushing the boundaries of what's capable in the browser.";
   $work   = array('keno', 'business-events-sydney', 'foodsters');
@@ -16,15 +16,15 @@
       <span></span>
       <span></span>
     </a>
-    
+
     <div id="content" data-start="modules/webdirections">
       <img class="section__logo hidden-md-up" src="includes/web-directions/logo.png" alt="Web Directions logo"/>
 
       <!-- Brief Begin -->
       <section class="section section--brief">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">          
+            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">
               <div class="row">
                 <div class="col-xs-12">
                   <div class="heading">
@@ -38,18 +38,18 @@
                 <div class="col-xs-12 col-lg-4 col-lg-push-8 col-xl-3 col-xl-push-9 hidden-sm-down">
                   <div class="section__profile">
                     <img class="section__logo" src="includes/web-directions/logo.png" alt="Web Directions logo"/>
-                    
+
                     <a class="section__link" target="_blank" href="http://www.peoplebehindthepixels.com">
                       <h5>Watch Title Sequence</h5>
-                    
+
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path class="arrow" fill="#C33" d="M11.83 9.828c.29.293.53.193.53-.22V4.392c0-.41-.338-.75-.75-.75H6.39c-.41 0-.51.24-.22.532l5.66 5.656z"/><path class="arrow" fill="#C33" d="M7.78 10.94c-.394.396-1.038.396-1.435 0L5.06 9.65c-.398-.396-.398-1.04 0-1.436l3.92-3.92c.395-.396 1.038-.396 1.437 0L11.7 5.583c.4.396.4 1.04 0 1.437l-3.92 3.92z"/><path fill="#C33" d="M9.078 11.18v1.47c0 .237-.19.43-.428.43H7.18l-.023.022-.023-.023H3.35c-.236 0-.428-.192-.428-.43V8.866L2.9 8.842l.022-.022V7.35c0-.236.192-.428.428-.428h1.47l1.5-1.5H3.35c-1.064 0-1.928.863-1.928 1.928v5.3c0 1.065.863 1.93 1.928 1.93h5.3c1.064 0 1.928-.864 1.928-1.93V9.68l-1.5 1.5z"/></svg>
                     </a>
                   </div>
                 </div>
-                  
+
                 <div class="col-xs-12 col-lg-8 col-lg-pull-4 col-xl-9 col-xl-pull-3">
                   <p>After moving to Sydney to work for <a target="_blank" href="http://www.reactive.com/">Reactive Media</a>, I found myself one day sitting across the room from John Allsopp of "<a style="position: relative; left: -3px;" target="_blank" href="http://alistapart.com/article/dao">A Dao of Web Design</a>" fame. He had come in to plan an inter-agency crawl to support <a target="_blank" href="http://www.webdirections.org/wds14/">Web Directions</a>, the premier Australian event for digital creatives, strategists and technologists. Mid-discussion, John casually asked if we'd be interested in creating the opening title sequence for the event, the only caveat being it had to run real-time in the browser. With an intense passion for all things film and digital, we really didn't have a choice.</p>
-                
+
                   <ul class="section__tags">
                     <li class="tag"><span>Front-end Development</span></li>
                   </ul>
@@ -63,9 +63,9 @@
 
       <!-- Research Begin -->
       <section class="section section--dark section--research">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1"> 
+            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">
               <h2 class="subheading">Research, Strategy, & Concept</h2>
 
               <div class="row">
@@ -77,7 +77,7 @@
                 </div>
 
                 <div class="col-xs-12 col-xl-6">
-                  <p>Saying yes to circumstances unknown is an understatement for "People Behind the Pixels". Being cautiously optimistic, the creatives had to balance pushing the boundaries of design while acknowledging the developers were charting unexplored territories within the browser. After several weeks of ideation, the duo of  <a target="_blank" href="http://db-d.tumblr.com/">Dave Brown</a> and <a target="_blank" href="http://melissabaillache.com/">Melissa Baillache</a> presented this beautiful animatic described by the premise below.</p> 
+                  <p>Saying yes to circumstances unknown is an understatement for "People Behind the Pixels". Being cautiously optimistic, the creatives had to balance pushing the boundaries of design while acknowledging the developers were charting unexplored territories within the browser. After several weeks of ideation, the duo of  <a target="_blank" href="http://db-d.tumblr.com/">Dave Brown</a> and <a target="_blank" href="http://melissabaillache.com/">Melissa Baillache</a> presented this beautiful animatic described by the premise below.</p>
                 </div>
 
                 <div class="col-xs-12 col-lg-8 col-lg-push-2">
@@ -146,9 +146,9 @@
 
       <!-- Screenshots Begin -->
       <div class="section section--darker section--screenshots">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">          
+            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">
               <div class="row">
                 <div class="col-xs-12">
                   <img src="includes/web-directions/sequence-1.jpg" alt="WebGL"/>
@@ -165,16 +165,16 @@
 
       <!-- Outcomes Begin -->
       <section class="section section--darkest section--outcomes section--twitter">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">          
+            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">
               <div class="row">
                 <div class="col-xs-12">
                   <h2 class="subheading">Outcomes</h2>
                   <p>People Behind the Pixels has surpassed our wildest expectations, having been nominated for a <a target="_blank" href="http://webbyawards.com/winners/2015/online-film-video/general-film-categories/experimental-weird/people-behind-the-pixels/">Webby</a> and an <a target="_blank" href="http://awards2015.agda.com.au/finalist/3/10007/980">AGDA</a> design award. Initially wowing an audience of 800 attendees, the title sequence has since been viewed by over 20,000 people online.  From the initial applause of the live audience to the awesome congratulatory tweets, one reaction stood out amongs the rest. Mr. Doob, the creator of Three.js, the very technology we were using gave us a little <a target="_blank" href="https://plus.google.com/+ricardocabello/posts/GxvwRXVCPSn">nod of approval</a> and featured our work on the official <a target="_blank" href="http://threejs.org/">ThreeJS.org</a> website.</p>
                 </div>
               </div>
-              
+
               <div class="twitter">
                 <div class="section__row row row-thin">
                   <div class="col-xs-12 col-lg-6 col-xl-4">

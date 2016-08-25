@@ -1,5 +1,5 @@
 <a href="foodsters" class="ajax project project--foodsters" style="background-image: url(includes/foodsters/thumbnail.jpg);">
-  <img class="project__logo" src="includes/foodsters/logo.png" alt="Restaurant delivery"/>
+  <img class="project__logo" src="includes/foodsters/logo-inverse.png" alt="Restaurant delivery"/>
   <span class="project__background"></span>
 
   <div class="project__description">
