@@ -1,6 +1,6 @@
 <?php
   function getMoreWork($project) {
-    $projects = [
+    $projects = array(
       'web-directions',
       'keno',
       'business-events-sydney',
@@ -8,7 +8,7 @@
       'foodsters',
       'big-head-mode',
       'this-is-neat'
-    ];
+    );
 
     $work = array();
     $projectIndex = array_search($project, $projects);
