@@ -1,3 +1,5 @@
+<?php $projects   = getMoreWork($project);?>
+
 <!-- Work Begin -->
 <section class="section section--more-work">
   <div class="container-fluid">
@@ -12,7 +14,7 @@
         </div>
 
         <div class="row-thin row">
-          <?php foreach($work as $project) : ?>
+          <?php foreach($projects as $project) : ?>
             <div class="col-xs-12 col-sm-4">
               <?php include_once('includes/'.$project.'/project.php');?>
             </div>

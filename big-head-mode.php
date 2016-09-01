@@ -1,7 +1,9 @@
 <?php
+  include_once('includes/functions.php');
+
   $title  = "Big Head Mode";
   $meta   = "A papercraft homage to the easter-egg setting found in our favorite childhood video games.";
-  $work   = array('this-is-neat', 'web-directions', 'keno');
+  $project  = "big-head-mode";
 ?>
 
 <?php include_once('includes/header.php');?>
@@ -24,7 +26,7 @@
       <section class="section section--brief">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">          
+            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">
               <div class="row">
                 <div class="col-xs-12">
                   <div class="heading">

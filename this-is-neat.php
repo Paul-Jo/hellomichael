@@ -1,8 +1,10 @@
 <?php
+  include_once('includes/functions.php');
+
   $title  = "This is Neat Cleaning";
   $meta   = "This is Neat is an end of lease cleaning service keeping real estate agents and renters happy all across Sydney.
     ";
-  $work   = array('web-directions', 'keno', 'business-events-sydney');
+  $project  = "this-is-neat";
 ?>
 
 <?php include_once('includes/header.php');?>

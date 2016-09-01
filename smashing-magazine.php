@@ -4,7 +4,6 @@
   $title    = "Smashing Magazine";
   $meta     = "Smashing Magazine is a responsive website for Sydney's premier industry event planner.";
   $project  = "smashing-magazine";
-  $work     = getMoreWork($project);
 ?>
 
 <?php include_once('includes/header.php');?>

@@ -1,4 +1,6 @@
 <?php
+  include_once('includes/functions.php');
+  
   $meta = "Front-end Developer based out of Sydney, Australia and Vancouver, Canada.";
 ?>
 

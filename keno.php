@@ -1,7 +1,9 @@
 <?php
+  include_once('includes/functions.php');
+
   $title      = "Keno";
   $meta       = "Keno is an Angular app based on Australia's favorite lottery game.";
-  $work       = array('business-events-sydney', 'foodsters', 'big-head-mode');
+  $project    = "keno";
 ?>
 
 <?php include_once('includes/header.php');?>
@@ -39,7 +41,7 @@
       <section class="section section--brief p-t-0">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">          
+            <div class="col-xs-12 col-md-11 col-md-centered col-lg-10 col-lg-push-1">
               <div class="row">
                 <div class="col-xs-12">
                   <div class="heading">

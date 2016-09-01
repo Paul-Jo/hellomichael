@@ -1,7 +1,9 @@
 <?php
+  include_once('includes/functions.php');
+
   $title  = "Web Directions";
   $meta   = "People Behind the Pixels is a WebGl title sequence pushing the boundaries of what's capable in the browser.";
-  $work   = array('keno', 'business-events-sydney', 'foodsters');
+  $project  = "web-directions";
 ?>
 
 <?php include_once('includes/header.php');?>

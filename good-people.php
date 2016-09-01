@@ -1,4 +1,6 @@
 <?php
+  include_once('includes/functions.php');
+  
   $title      = "Good People";
   $meta       = "You all mean more to me than words can express. I'll still try anyways.";
 ?>

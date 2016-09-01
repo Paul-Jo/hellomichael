@@ -1,4 +1,6 @@
 <?php
+  include_once('includes/functions.php');
+  
   $title      = "Resume";
   $meta       = "Award winning front-end developer with more than 8+ years experience building pixel perfect websites. Recent contributor to Smashing Magazine. Nominated for a Webby and AGDA design award with portfolio featured on Awwwards as \"Site of the Day\".";
 ?>

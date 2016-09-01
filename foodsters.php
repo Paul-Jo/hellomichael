@@ -1,7 +1,9 @@
 <?php
+  include_once('includes/functions.php');
+
   $title  = "Foodsters Restaurant Delivery";
   $meta   = "Foodsters Restaurant Delivery is a \"clicks to bricks\" startup offering Vancouver the best in restaurant delivery.";
-  $work   = array('big-head-mode', 'this-is-neat', 'web-directions');
+  $project  = "foodsters";
 ?>
 
 <?php include_once('includes/header.php');?>

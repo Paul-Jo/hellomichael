@@ -1,7 +1,9 @@
 <?php
+  include_once('includes/functions.php');
+
   $title  = "Business Events Sydney";
   $meta   = "Business Events Sydney is a responsive website for Sydney's premier industry event planner.";
-  $work   = array('foodsters', 'big-head-mode', 'this-is-neat');
+  $project  = "business-events-sydney";
 ?>
 
 <?php include_once('includes/header.php');?>

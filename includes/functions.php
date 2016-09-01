@@ -1,5 +1,5 @@
 <?php
-  function getMoreWork($projects) {
+  function getMoreWork($project) {
     $projects = [
       'web-directions',
       'keno',
