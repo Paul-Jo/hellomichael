@@ -57,7 +57,7 @@
                   <div class="section__profile">
                     <img class="section__logo" src="includes/this-is-neat/logo.png" alt="This is Neat logo"/>
 
-                    <a class="section__link" target="_blank" href="https://www.thisisneat.com.au">
+                    <a class="section__link" target="_blank" href="https://thisisneat.com.au">
                       <h5>Launch website</h5>
 
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path class="arrow" fill="#C33" d="M11.83 9.828c.29.293.53.193.53-.22V4.392c0-.41-.338-.75-.75-.75H6.39c-.41 0-.51.24-.22.532l5.66 5.656z"/><path class="arrow" fill="#C33" d="M7.78 10.94c-.394.396-1.038.396-1.435 0L5.06 9.65c-.398-.396-.398-1.04 0-1.436l3.92-3.92c.395-.396 1.038-.396 1.437 0L11.7 5.583c.4.396.4 1.04 0 1.437l-3.92 3.92z"/><path fill="#C33" d="M9.078 11.18v1.47c0 .237-.19.43-.428.43H7.18l-.023.022-.023-.023H3.35c-.236 0-.428-.192-.428-.43V8.866L2.9 8.842l.022-.022V7.35c0-.236.192-.428.428-.428h1.47l1.5-1.5H3.35c-1.064 0-1.928.863-1.928 1.928v5.3c0 1.065.863 1.93 1.928 1.93h5.3c1.064 0 1.928-.864 1.928-1.93V9.68l-1.5 1.5z"/></svg>
@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="col-xs-12 col-lg-8 col-lg-pull-4 col-xl-9 col-xl-pull-3">
-                  <p>With the trend of the "uber of" company becoming more ubiquitous, the question remains, is there still room for the small business? <a target="_blank" href="https://www.thisisneat.com.au">This is Neat</a> is striving to answer that very question (and maybe prove some doubters wrong) by competing with the rise of Australian "on-demand" cleaning companies.</p>
+                  <p>With the trend of the "uber of" company becoming more ubiquitous, the question remains, is there still room for the small business? <a target="_blank" href="https://thisisneat.com.au">This is Neat</a> is striving to answer that very question (and maybe prove some doubters wrong) by competing with the rise of Australian "on-demand" cleaning companies.</p>
 
                   <p>Living in Sydney, I had the pleasure of moving from Surry Hills to Newtown. In doing so, I was surprised by two very interesting Australianisms. First, it's the norm for rental properties to be managed by real estate agents and second, that they would prefer you use a professional <a target="_blank" href="https://www.thisisneat.com.au">end of lease cleaning service</a> when moving out. As it turns out, an entire industry of cleaning exists to mediate this tug of war between tenant and real estate agent.</p>
 
