@@ -6,8 +6,8 @@
     paths: {
       // Libraries
       'jquery': [
-        'lib/jquery.min',        
-        'http://code.jquery.com/jquery-2.0.3.min'
+        'lib/jquery.min',
+        'https://code.jquery.com/jquery-2.0.3.min.js'
       ],
       'easing':         'lib/jquery.easing.min',
       'typekit':        'lib/typekit',
@@ -81,11 +81,11 @@
     'jquery',
     'easing'
   ],
-  
+
   function (menu, transition) {
     // Global modules
     menu.init();
-    
+
     // Page specific module
     var nextModule = $('#content').attr('data-start');
 

@@ -21,9 +21,9 @@
     <meta name="author" content="Michael Ngo">
 
     <meta property="og:title" content="<?php echo $title;?>"/>
-    <meta property="og:url" content="<?php echo "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>"/>
+    <meta property="og:url" content="<?php echo "https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>"/>
     <meta property="og:description" content="<?php if (isset($meta)) {echo $meta;}?>"/>
-    <meta property="og:image" content="http://hellomichael.com/img/screenshot.jpg"/>
+    <meta property="og:image" content="https://hellomichael.com/img/screenshot.jpg"/>
 
     <link rel="icon" href="favicon.ico">
 
